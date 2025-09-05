@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anvi Suri - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .section-container {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .section-container.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <!-- Header & Hero Section -->
+    <header class="w-full flex justify-center items-center py-20 px-6 sm:px-10 bg-gray-950 text-white">
+        <div class="max-w-4xl text-center">
+            <h1 class="text-4xl sm:text-6xl font-bold tracking-tight mb-4">
+                Hi, I'm <span class="text-emerald-400">Anvi Suri</span>
+            </h1>
+            <p class="text-lg sm:text-2xl font-light text-gray-400 mb-8">
+                Enthusiastic BCA Student | Web Developer | Tech Enthusiast
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 text-sm font-medium">
+                <a href="mailto:anvisuri05@gmail.com" class="bg-emerald-500 text-white hover:bg-emerald-600 transition-colors duration-300 py-2.5 px-6 rounded-full shadow-lg">
+                    Get in Touch
+                </a>
+                <a href="#projects" class="bg-gray-700 text-gray-300 hover:bg-gray-600 transition-colors duration-300 py-2.5 px-6 rounded-full shadow-lg">
+                    View My Work
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 section-container">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center text-emerald-400">About Me</h2>
+            <p class="text-lg text-gray-400 text-center">
+                I am a final-year BCA student at Bharati Vidyapeeth Deemed University with a strong foundation in programming, data analytics, and web technologies. I am certified in Cloud Computing, Web Development, and Cybersecurity. I'm passionate about technology, design, and entrepreneurship, with strong problem-solving and collaboration skills.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 px-6 bg-gray-800 section-container">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center text-emerald-400">Skills & Tools</h2>
+            <div class="flex flex-wrap justify-center gap-3">
+                <!-- A small, circular icon with the programming language's logo on a subtle background. -->
+                <div class="flex items-center gap-2 bg-gray-700 text-gray-300 px-4 py-2 rounded-full text-sm font-medium transition-transform transform hover:scale-105">
+                    <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                    C++
+                </div>
+                <div class="flex items-center gap-2 bg-gray-700 text-gray-300 px-4 py-2 rounded-full text-sm font-medium transition-transform transform hover:scale-105">
+                    <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                    Java
+                </div>
+                <div class="flex items-center gap-2 bg-gray-700 text-gray-300 px-4 py-2 rounded-full text-sm font-medium transition-transform transform hover:scale-105">
+                    <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                    HTML
+                </div>
+                <div class="flex items-center gap-2 bg-gray-700 text-gray-300 px-4 py-2 rounded-full text-sm font-medium transition-transform transform hover:scale-105">
+                    <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                    CSS
+                </div>
+                <div class="flex items-center gap-2 bg-gray-700 text-gray-300 px-4 py-2 rounded-full text-sm font-medium transition-transform transform hover:scale-105">
+                    <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                    JavaScript
+                </div>
+                <div class="flex items-center gap-2 bg-gray-700 text-gray-300 px-4 py-2 rounded-full text-sm font-medium transition-transform transform hover:scale-105">
+                    <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                    MySQL
+                </div>
+                                <div class="flex items-center gap-2 bg-gray-700 text-gray-300 px-4 py-2 rounded-full text-sm font-medium transition-transform transform hover:scale-105">
+                    <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                    Git/GitHub
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 px-6 section-container">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center text-emerald-400">My Projects & Experience</h2>
+            <div class="space-y-8">
+                <div class="project-card p-6 bg-gray-800 rounded-xl shadow-xl transition-transform transform hover:scale-[1.01]">
+                    <h3 class="text-xl font-bold mb-2 text-emerald-300">Point of Sale (POS) System - Academic Project</h3>
+                    <p class="text-gray-400">
+                        Developed a desktop POS application using **Java Swing and MySQL**. The system manages customers, product catalogs, billing, and inventory using the MVC architecture.
+                    </p>
+                </div>
+                <div class="project-card p-6 bg-gray-800 rounded-xl shadow-xl transition-transform transform hover:scale-[1.01]">
+                    <h3 class="text-xl font-bold mb-2 text-emerald-300">GenAI-Powered Data Analytics Simulation</h3>
+                    <p class="text-gray-400">
+                        Performed exploratory data analysis and predicted delinquency using an **AI model**. Produced detailed reports for stakeholders to guide an AI-driven collections strategy.
+                    </p>
+                </div>
+                <div class="project-card p-6 bg-gray-800 rounded-xl shadow-xl transition-transform transform hover:scale-[1.01]">
+                    <h3 class="text-xl font-bold mb-2 text-emerald-300">Graphic Designer Intern</h3>
+                    <p class="text-gray-400">
+                        Collaborated with teams to design marketing materials, packaging, and social media graphics for global and local markets, focusing on culturally adaptive designs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-16 px-6 bg-gray-800 section-container">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center text-emerald-400">Certifications</h2>
+            <ul class="list-none p-0 space-y-4">
+                <li class="p-4 bg-gray-700 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    <span class="font-semibold text-emerald-300">Cloud Computing</span> - IIT Kharagpur (Apr 2025)
+                </li>
+                <li class="p-4 bg-gray-700 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    <span class="font-semibold text-emerald-300">Complete 2024 Web Development Bootcamp</span> (Oct 2024)
+                </li>
+                <li class="p-4 bg-gray-700 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    <span class="font-semibold text-emerald-300">Ultimate Microsoft Office 2021/365 Training Bundle</span> (Apr 2025)
+                </li>
+                <li class="p-4 bg-gray-700 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    <span class="font-semibold text-emerald-300">Play It Safe: Manage Security Risks</span> - Google (Aug 2023)
+                </li>
+                <li class="p-4 bg-gray-700 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    <span class="font-semibold text-emerald-300">Fundamentals of Digital Marketing</span> - Google Digital Garage (Jul 2023)
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6 section-container">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center text-emerald-400">Get in Touch</h2>
+            <div class="flex flex-col items-center gap-6 text-center">
+                <p class="text-lg text-gray-400">
+                    Feel free to connect with me to discuss technology, design, or collaboration opportunities.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4 text-lg">
+                    <a href="mailto:anvisuri05@gmail.com" class="text-gray-300 hover:text-emerald-400 transition-colors duration-300">Email</a>
+                    <a href="https://linkedin.com/in/anvi-suri" class="text-gray-300 hover:text-emerald-400 transition-colors duration-300">LinkedIn</a>
+                    <a href="https://github.com/AnviSuri" class="text-gray-300 hover:text-emerald-400 transition-colors duration-300">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="w-full bg-gray-950 py-8 text-center text-gray-500 text-sm">
+        &copy; 2025 Anvi Suri. All rights reserved.
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button onclick="scrollToTop()" id="back-to-top-btn" class="fixed bottom-6 right-6 p-4 bg-gray-700 text-emerald-400 rounded-full shadow-lg opacity-0 transition-opacity duration-300 hover:bg-gray-600">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
+    </button>
+
+    <script>
+        // JavaScript for fade-in animation on scroll
+        const sections = document.querySelectorAll('.section-container');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            rootMargin: '0px 0px -100px 0px', // Adjust margin to trigger earlier
+        });
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // JavaScript for back-to-top button
+        const backToTopBtn = document.getElementById('back-to-top-btn');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('opacity-100');
+            } else {
+                backToTopBtn.classList.remove('opacity-100');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
